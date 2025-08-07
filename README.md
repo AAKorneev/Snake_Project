@@ -15,7 +15,7 @@
 
 ### Модуль Snake_2:
 Отображение движения змейки (на экране) в одном направлении (вправо).
-![Snake_2](https://github.com/AAKorneev/Snake_Project/blob/main/screenshots/Snake_2.gif)
+![Snake_2](/screenshots/Snake_2.gif)
 
 ### Модуль Snake_3:
 Отображение движения змейки в одном направлении (по горизонтали).
