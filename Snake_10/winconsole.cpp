@@ -1,20 +1,20 @@
-#include <Windows.h>
+п»ї#include <Windows.h>
 
 //------------------------------------------------------------------------------
-// Установка курсуора и его скрытие - замена system("cls") 
+// РЈСЃС‚Р°РЅРѕРІРєР° РєСѓСЂСЃСѓРѕСЂР° Рё РµРіРѕ СЃРєСЂС‹С‚РёРµ - Р·Р°РјРµРЅР° system("cls") 
 //------------------------------------------------------------------------------
 void setCursorPosition(int x, int y)
 {
 	static HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	static bool init = false;
-	if (!init) {				// скрываем курсор
+	if (!init) {				// СЃРєСЂС‹РІР°РµРј РєСѓСЂСЃРѕСЂ
 		CONSOLE_CURSOR_INFO structCursorInfo;
 		GetConsoleCursorInfo(hConsole, &structCursorInfo);
 		structCursorInfo.bVisible = FALSE;
 		SetConsoleCursorInfo(hConsole, &structCursorInfo);
 		init = true;
 	}
-	COORD position = { x, y }; // устанавливаем в нужную позицию
+	COORD position = { x, y }; // СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј РІ РЅСѓР¶РЅСѓСЋ РїРѕР·РёС†РёСЋ 
 	SetConsoleCursorPosition(hConsole, position);
 }
 //------------------------------------------------------------------------------

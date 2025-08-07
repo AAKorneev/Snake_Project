@@ -1,7 +1,7 @@
 ﻿#include <Windows.h>
 
 //------------------------------------------------------------------------------
-// Установка курсуора и его скрытие - замена system("cls")  
+// Установка курсуора и его скрытие - замена system("cls") 
 //------------------------------------------------------------------------------
 void setCursorPosition(int x, int y)
 {
@@ -14,7 +14,7 @@ void setCursorPosition(int x, int y)
 		SetConsoleCursorInfo(hConsole, &structCursorInfo);
 		init = true;
 	}
-	COORD position = { x, y }; // устанавливаем в нужную позицию
+	COORD position = { x, y }; // устанавливаем в нужную позицию 
 	SetConsoleCursorPosition(hConsole, position);
 }
 //------------------------------------------------------------------------------

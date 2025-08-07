@@ -15,17 +15,17 @@
 
 ### Модуль Snake_2:
 Отображение движения змейки (на экране) в одном направлении (вправо).
-![](screenshots/Snake_2.gif)
+![Snake_2](https://github.com/AAKorneev/Snake_Project/blob/main/screenshots/Snake_2.gif)
 
 ### Модуль Snake_3:
 Отображение движения змейки в одном направлении (по горизонтали).
 Игровое поле построено на базе одномерного встроенного массива.
-![](screenshots/Snake_3.gif)
+![Snake_3.exe](https://github.com/AAKorneev/Snake_Project/blob/main/screenshots/Snake_3.gif)
 
 ### Модуль Snake_4:
 Реализация модуля Snake_3.
 Генерация еды на поле. Увеличение змейки при поедании еды.
-![](screenshots/Snake_4.gif)
+![Snake_4.exe](https://github.com/AAKorneev/Snake_Project/blob/main/screenshots/Snake_4.gif)
 
 ### Модуль Snake_5:
 Декомпозиция предыдущих модулей.
@@ -42,7 +42,7 @@
 ### Модуль Snake_8:
 Отображение движения змейки в двумерном динамическом массиве.
 В меню игры добавлен выбор размера поля игры (количество строк и столбцов).
-![](screenshots/Snake_7-10.gif)
+![Snake.exe](https://github.com/AAKorneev/Snake_Project/blob/main/screenshots/Snake_7-10.gif)
 
 ### Модуль Snake_9:
 Оптимизация организации данных: для объектов game, field, food, snake определены структуры.

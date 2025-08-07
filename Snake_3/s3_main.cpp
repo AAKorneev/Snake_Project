@@ -85,7 +85,7 @@ int main() {
 			for (size_t i = 0; i < snake_size; i++)
 			{
 				snake_x[i]++;
-				if (snake_x[i] == COLUMNS - 2)
+				if (snake_x[i] == COLUMNS - 1)
 					snake_x[i] = 1;
 			}
 			break;
